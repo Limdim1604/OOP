@@ -8,7 +8,7 @@ TamGiac::TamGiac(float x1, float y1, float x2, float y2, float x3, float y3)
 // Tịnh tiến tam giác theo góc và độ dài
 void TamGiac::TinhTien(float goc, float doDai) {
     // Chuyển đổi góc từ độ sang radian
-    float rad = goc * 3.14 / 180.0;
+    float rad = goc * M_PI / 180.0;
 
     // Tính thành phần tịnh tiến trên trục x và y
     float dx = doDai * cos(rad);
